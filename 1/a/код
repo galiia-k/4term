@@ -4,7 +4,7 @@ import sys
 
 gmsh.initialize()
 
-gmsh.merge('C:/Users/Мвидео/Desktop/мфти/solid/тор.STL') # путь STL на ноуте
+gmsh.merge('тор.STL')
 
 angle = 2
 
