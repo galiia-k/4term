@@ -57,7 +57,7 @@ gmsh.initialize()
 
 try:
     path = os.path.dirname(os.path.abspath(__file__))
-    gmsh.merge('C:/Users/Мвидео/Desktop/мфти/solid/easy.STL')
+    gmsh.merge('/home/galiia/Downloads/Rook_01.stl')
 except:
     print("Could not load STL mesh: bye!")
     gmsh.finalize()
